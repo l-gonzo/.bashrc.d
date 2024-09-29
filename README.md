@@ -99,6 +99,10 @@ The `ls_with_icons` function replaces the `ls` command to provide a more visual 
 
 After installation, simply open a new terminal and you will be able to see your new custom prompt. When you run `ls`, you will see a file listing with icons and additional details.
 
+## Results
+![image](https://github.com/user-attachments/assets/fee422e8-18cb-4795-9c7f-305a427be3ab)
+
+
 ## Contributions
 
 If you wish to contribute to this setup, feel free to fork the repository and submit your improvements via a pull request.
