@@ -46,7 +46,7 @@ export NVM_DIR="$HOME/.nvm"
 
 1. **Verify the existence of the `.bashrc` file (if it doesn't exist, create it with the code provided above) in your home directory**:
 ```bash
-cat .bashrc ~/
+cat ~/.bashrc
 ```
 
 2. **Clone the repository to the indicated directory**:
