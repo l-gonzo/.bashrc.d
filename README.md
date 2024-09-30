@@ -55,7 +55,7 @@ cd ~/
 git clone https://github.com/l-gonzo/.bashrc.d.git
 ```
 
-3. **Add the '# User-specific aliases and functions' block shown below to the `~/.bashrc` file**:
+3. **Add the '# User specific aliases and functions' block shown below to the `~/.bashrc` file**:
 ```bash
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
