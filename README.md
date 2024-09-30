@@ -70,7 +70,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 ```
-This will prevent the README.md and LICENSE files from running.
+This ensures that only .sh or .bash files inside the .bashrc.d folder are executed.
 
 4. **Add any additional scripts in the `.bashrc.d` directory** that you want to load automatically when Bash starts.
 
