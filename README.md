@@ -55,9 +55,26 @@ cd ~/
 git clone https://github.com/l-gonzo/.bashrc.d.git
 ```
 
-3. **Add any additional scripts in the `.bashrc.d` directory** that you want to load automatically when Bash starts.
+3. **Modify the # User specific aliases and functions block to read as follows**:
+```bash
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        # Only run files with script extensions
+        case "$rc" in
+            *.sh | *.bash) 
+                . "$rc" 
+                ;;
+        esac
+    done
+fi
+unset rc
+```
+This will prevent the README.md and LICENSE files from running.
 
-4. **Restart the terminal** or run `source ~/.bashrc` to apply the changes.
+4. **Add any additional scripts in the `.bashrc.d` directory** that you want to load automatically when Bash starts.
+
+5. **Restart the terminal** or run `source ~/.bashrc` to apply the changes.
 
 ## Features
 
