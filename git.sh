@@ -17,4 +17,4 @@ get_virtual_env() {
 }
 
 # Configurar el prompt
-PROMPT_COMMAND='PS1="┌──${VENV_COLOR}\$(get_virtual_env)${RESET_COLOR}${USER_COLOR}\u${RESET_COLOR}@${HOST_COLOR}\h ${DIR_COLOR}\w${GIT_BRANCH_COLOR}\$(get_git_branch)${RESET_COLOR}\n└──\$ ${RESET_COLOR}${PROMPT_COLOR}"'
+PROMPT_COMMAND='PS1="┌──${VENV_COLOR}\$(get_virtual_env)${RESET_COLOR}${USER_COLOR}\u${RESET_COLOR}@${HOST_COLOR}\h ${DIR_COLOR}\w${GIT_BRANCH_COLOR}\$(get_git_branch)${RESET_COLOR}\n└─\$ ${RESET_COLOR}${PROMPT_COLOR}"'
